@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Notes App MVVM</string>
+    <string name="bottom_text">
+        <br>
+            by
+        </br>
+        <br>
+            Mmedara Josiah
+        </br>
+    </string>
+    <string name="notes_app">Notes App</string>
+    <string name="fast_life">Life is too fast. Don`t forget anything, just Note it</string>
+    <string name="title">Title...</string>
+    <string name="sub_title">SubTitle</string>
+    <string name="note">Notes</string>
+    <string name="priority">Priority</string>
+    <string name="date">23 Jan 2021</string>
+    <string name="sure_delete">Are you sure you want to delete this note?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_filter">No filter</string>
+    <string name="high_to_low">High To Low</string>
+    <string name="low_to_high">Low To High</string>
+    <string name="search">Search</string>
+</resources>

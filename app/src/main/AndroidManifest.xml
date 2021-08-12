@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.notesappmvvm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_document"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_document"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NotesAppMVVM">
+        <activity android:name=".Activity.UpdateNotesActivity" />
+        <activity android:name=".Activity.InsertNotesActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="https"
+                    android:host="www.twelve07live.com"
+                    android:pathPrefix="/about" />
+            </intent-filter>
+        </activity>
+        <!--
+        We want splash activity to be the first activity.
+        Upon launch, this is the first activity we come across
+        -->
+        <activity android:name=".Activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.MainActivity" />
+    </application>
+
+</manifest>
